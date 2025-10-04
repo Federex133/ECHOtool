@@ -5,6 +5,7 @@
 # Compatible con Termux y WSL
 
 # Colores para la interfaz
+powershell.exe -c "[console]::beep(2000,1000)"
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
@@ -1189,4 +1190,5 @@ main() {
 }
 
 # Ejecutar función principal
+
 main "$@"
